@@ -150,9 +150,9 @@ enableEmoji = true
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "dolt_index"
-          appID = "LM2P0QP3A1"
-          searchKey = "bb060b3c0141ac7accef1a625bfbd083"
+          index = "en_index"
+          appID = "5YGRNRQK1G"
+          searchKey = "0ff6874805de24b84aa1d5ebccad56cd"
         [languages.en.params.search.fuse]
           # https://fusejs.io/api/options.html
           isCaseSensitive = false
