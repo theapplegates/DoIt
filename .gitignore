@@ -3,7 +3,6 @@ public/
 /exampleSite/resources/
 
 node_modules/
-build/
 
 ## OS Files
 # Windows
@@ -23,4 +22,4 @@ $RECYCLE.BIN/
 jsconfig.json
 
 # ENV files
-.envs
+.env
