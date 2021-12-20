@@ -16,7 +16,7 @@ series: ["getting-start"]
 series_weight: 4
 lightgallery: true
 math:
-  enable: true
+  enable: false
 ---
 
 **DoIt** theme provides multiple shortcodes on top of built-in ones in Hugo.
@@ -1356,26 +1356,3 @@ The rendered output looks like this:
 
 {{< showcase title="Theme Documentation - Basics" summary="Discover what the Hugo - DoIt theme is all about and the core-concepts behind it." image="/theme-documentation-basics/featured-image.webp" link="/theme-documentation-basics" >}}
 
-## 14 math
-
-{{< version 0.2.12 >}}
-
-`math` is a shortcode to insert a math expression in your post. This can prevent [Goldmark](https://gohugo.io/getting-started/configuration-markup/#goldmark) from parsing math expressions into HTML. You no longer need to escape special characters inside this shortcode.
-
-Example `math` input:
-
-```markdown
-{{</* math */>}}$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}${{</* /math */>}}
-Or
-{{</* math */>}}
-$$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}$$
-{{</* /math */>}}
-```
-
-The rendered output looks like this:
-
-{{< math >}}$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}${{< /math >}}
-
-{{< math >}}
-$$\|\boldsymbol{x}\|_{0}=\sqrt[0]{\sum_{i} x_{i}^{0}}$$
-{{< /math >}}
